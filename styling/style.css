@@ -1,0 +1,59 @@
+html, html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font:400 1.2em/1.2 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  padding: 40px 30px 70px;
+}
+main {
+  padding: 1em;
+}
+main a {
+  text-decoration: noen;
+  text-decoration-style: wavy;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  color: rgb(168, 75, 171);
+  text-decoration-color: rgb(191, 144, 230);
+}
+main a:hover {
+  text-decoration-thickness: 2.25px;
+}
+.title-section {
+  padding-left: 15vw;
+  margin: 0 auto;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(0.25turn, rgb(66, 147, 218), rgb(124, 94, 222), rgb(187, 88, 190));
+  border-image-slice: 1;
+}
+.footer-section {
+  padding: 15px 15vw;
+  margin: 1.5em auto 0;
+  border-top: 4px solid transparent;
+  border-image: linear-gradient(0.25turn, rgb(66, 147, 218), rgb(124, 94, 222), rgb(187, 88, 190));
+  border-image-slice: 1;
+}
+.footer-section footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+h1 {
+  font-size: 2em;
+  margin: .5em 0;
+}
+h2 {
+  font-size: 1.6em;
+  margin: .35em 0;
+}
+h3 {
+  font-size: 1.25em;
+  margin: .35em 0;
+}
+h4 {
+  margin: 0 0 1.4em;
+}

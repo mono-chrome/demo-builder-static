@@ -4,9 +4,9 @@ import { PostData } from '../types/postdata'
 export default function Post({ title, body, id }: PostData) {
   return (
     <article>
-      <h2>{title}</h2>
+      <h3>{title}</h3>
       <p>{body}</p>
-      <Link href={`/post/${id}`}>Read more...</Link>
+      <Link href={`/post/${id}`}>Read more</Link>
     </article>
   )
 }
