@@ -21,19 +21,18 @@ main a {
 main a:hover {
   text-decoration-thickness: 2.25px;
 }
+.title-section, .footer-section {
+  border-image: linear-gradient(90deg, rgb(66, 147, 218), rgb(124, 94, 222), rgb(187, 88, 190));
+  border-image-slice: 1;
+  margin: 1.5em auto 0;
+}
 .title-section {
   padding-left: 15vw;
-  margin: 0 auto;
   border-bottom: 4px solid transparent;
-  border-image: linear-gradient(0.25turn, rgb(66, 147, 218), rgb(124, 94, 222), rgb(187, 88, 190));
-  border-image-slice: 1;
 }
 .footer-section {
   padding: 15px 15vw;
-  margin: 1.5em auto 0;
   border-top: 4px solid transparent;
-  border-image: linear-gradient(0.25turn, rgb(66, 147, 218), rgb(124, 94, 222), rgb(187, 88, 190));
-  border-image-slice: 1;
 }
 .footer-section footer {
   width: 100%;
